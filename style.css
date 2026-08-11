@@ -120,3 +120,11 @@ button{
     margin-top: -20px;
     margin-left: -23rem;
 }
+
+.borda-vermelha{
+    border: solid red 2px;
+}
+
+.borda-verde{
+    border: solid green 2px;
+}
