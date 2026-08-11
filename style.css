@@ -57,16 +57,66 @@ main{
 form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: white;
     margin-top: 50px;
     gap: 20px;
     width: 652.8px;
     height: 700px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 input{
     width: 500px;
     border: solid black 2px;
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+textarea{
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
+
+button{
+    background-color: #3CCC87;
+    border: none;
+    color: white;
+    padding: 10px 20px;margin-top: -25px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    height: 60px;
+}
+
+.aviso{
+    color: red;
+    font-size: 11px;
+    display: none;
+    position: relative;
+    margin-top: -25px;
+    margin-left: -29rem;
+}
+
+.notificacao{
+    margin-top: -20px;
+    margin-left: -23rem;
 }
